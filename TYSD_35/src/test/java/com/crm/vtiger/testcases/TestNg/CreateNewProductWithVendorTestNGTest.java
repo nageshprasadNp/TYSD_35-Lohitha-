@@ -52,7 +52,7 @@ public class CreateNewProductWithVendorTestNGTest extends BaseClass {
 		wlib.waitForPageToLoad(driver);
 		String list = prdthomepage.getProductList().getText();
 		 
-		
+		//Verifiying title using Soft Assert
 		SoftAssert a = new SoftAssert();
 		a.assertTrue(list.contains(productName));
 		System.out.println("New Product is Created and Vendor is Added");
