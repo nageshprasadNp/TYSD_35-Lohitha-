@@ -26,7 +26,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class CreateOrganizationTestNGTest extends BaseClass{
 	
-	//tests are done through testng annotations
+	//tests are done through testng annotations//
 	
 	//@Test(groups = "smokeTest")
 	@Test
