@@ -26,6 +26,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class CreateOrganizationTestNGTest extends BaseClass{
 	
+	
+	//using annotataion tests are executed
+	
 	//@Test(groups = "smokeTest")
 	@Test
 	public void createOrganizationTest() throws Throwable
