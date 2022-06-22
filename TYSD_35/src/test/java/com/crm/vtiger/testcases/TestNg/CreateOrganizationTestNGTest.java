@@ -26,9 +26,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class CreateOrganizationTestNGTest extends BaseClass{
 	
-	
-	//using test annotations to verify the test
-	
 	//@Test(groups = "smokeTest")
 	@Test
 	public void createOrganizationTest() throws Throwable
@@ -65,29 +62,7 @@ public class CreateOrganizationTestNGTest extends BaseClass{
 		
 	}
 }
-		
-		
-		
-		
-//String title = text.getText();
-//
-//if(title.contains(Orgname))
-//{
-//	System.out.println("New organization is Created");
-//}
-//else
-//{
-//	System.out.println("New organization is not created");
-//}	
-		
-		
-		
-		
-		
-		
-		
-		
-		
+			
 //		String website = elib.readDataFromExcel("Sheet1", 5, 3);
 //		String pn = elib.readDataFromExcel("Sheet1", 1, 6);
 //		String Tickersymbol = elib.readDataFromExcel("Sheet1", 8, 0);
