@@ -74,7 +74,7 @@ public class BaseClass {
 		
 		System.out.println("Browser launched");
 		
-		sdriver=driver;
+		//sdriver=driver;
 		//maximize the window
 		driver.manage().window().maximize();
 		
